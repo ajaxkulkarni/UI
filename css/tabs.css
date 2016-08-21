@@ -1,0 +1,31 @@
+.nav-tabs {
+    background-color: #64B5F6;
+    #static-bg color: white;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.nav-tabs > li > a {
+    border: 0px;
+    color: white;
+}
+
+.nav-tabs > li > a:hover {
+    #background-color: #3D515F !important;
+    background-color: #64B5F6 !important;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0px;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+    #background-color: #68889E !important;
+    background-color: #64B5F6 !important;
+    #after-selcted color: white;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-radius: 0px;
+    border-bottom: 5px solid #fff;
+}
