@@ -1,7 +1,7 @@
 /* YOUR CUSTOM STYLES */
 
-body{
-    background-color: #ECEFF1;
+body {
+    background-color: #FAFAFA;
 }
 
 .myNavbar {
@@ -57,6 +57,8 @@ body{
 .skillSets {
     font-size: 16px;
     #padding-bottom: 15px;
+    background-color: #F5F5F5;
+    color: black;
 }
 
 .myButton {
@@ -65,7 +67,7 @@ body{
 }
 
 .compatibility {
-    padding-left: 4%;
+    padding-left: 5%;
     padding-top: 3%;
     #border-style: solid;
 }
@@ -74,7 +76,6 @@ body{
     padding-top: 2%;
     #border-style: solid;
     padding-bottom: 5%;
-    
 }
 
 .small-card-header {
@@ -83,4 +84,10 @@ body{
 
 .small-card-icons {
     padding-left: 10%;
+}
+
+.myTab {
+    background-color: #64B5F6;
+    height: 30px;
+    border-style: solid;
 }
