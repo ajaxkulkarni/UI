@@ -93,3 +93,11 @@ body {
     #border-style: solid;
     color: white;
 }
+
+.avoidHover > a:hover {
+    background-color: #64B5F6 !important;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-radius: 0px;
+    #border-bottom: 5px solid #EFEFEF;
+}
