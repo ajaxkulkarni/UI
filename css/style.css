@@ -1,0 +1,54 @@
+/* YOUR CUSTOM STYLES */
+
+.myNavbar {
+    background-color: blue;
+}
+
+.myNavItem {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.mainSection {
+    background-color: blue;
+    height: 400px;
+}
+
+.personType {
+    padding-top: 15%;
+    color: white;
+}
+
+.registerSection {
+    padding-top: 5%;
+}
+
+.nextButtonSection {
+    #padding-left: 40%;
+    #margin-left: 60%;
+}
+
+.nextButton {
+    width: 40%;
+}
+
+.skillSection {
+    padding-top: 5%;
+    left: 150%;
+}
+
+.card-title-section {
+    background-color: blue;
+    height: 70px;
+    width: inherit;
+}
+
+.card-title {
+    padding-top: 20px;
+    color: white;
+}
+
+.skillSets {
+    font-size: 16px;
+}

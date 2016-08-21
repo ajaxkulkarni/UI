@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Material Design Bootstrap</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--For Ang-Date Picker-->
+
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+
+    <link rel="stylesheet" href="./css/material-datetimepicker.css" type="text/css"/>
+    <!--For Sider
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>-->
+
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>-->
+
+
+</head>
+
+<body ng-app="mdDatetimePickerDemo" ng-controller="DemoCtrl">
+
+
+    <!-- Start your project here-->
+
+    <!-- /Start your project here-->
+
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <!--Navbar green-->
+    <nav class="navbar navbar-dark myNavbar">
+
+        <!-- Collapse button-->
+        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx22"><i class="fa fa-bars"></i> </button>
+
+        <div class="container">
+
+            <!--Collapse content-->
+            <div class="collapse navbar-toggleable-xs" id="collapseEx22">
+                <!--Navbar Brand-->
+
+                <!--Links-->
+                <ul class="nav navbar-nav pull-right">
+                    <li class="nav-item active myNavItem">
+                        <a class="nav-link" href="#"><i class="fa fa-envelope"></i>  Contact</a>
+                    </li>
+
+                    <li class="nav-item myNavItem">
+                        <a class="nav-link" href="#"><i class="fa fa-gear"></i>  Settings</a>
+                    </li>
+                </ul>
+                <!--Links-->
+            </div>
+            <!--/.Collapse content-->
+
+        </div>
+
+    </nav>
+
+
+    <div class="container-fluid">
+
+        <div class="row" id="regDiv">
+            <div class="col-md-6 col-md-offset-3 registerSection">
+
+                <!--Naked Form-->
+                <div class="card-block movable">
+
+                    <!--Header-->
+                    <div class="text-xs-center">
+                        <h3><i class="fa fa-envelope"></i> Job Information </h3>
+                        <hr class="m-t-2 m-b-2">
+                    </div>
+
+
+                    <br>
+
+                    <!--Body-->
+                    <div class="md-form">
+                        <i class="fa fa-user prefix"></i>
+                        <input type="text" id="form1" class="form-control">
+                        <label for="form3">Job Title</label>
+                    </div>
+
+                    <div class="md-form">
+                        <i class="fa fa-envelope prefix"></i>
+                        <input type="text" id="form2" class="form-control">
+                        <label for="form2">Company</label>
+                    </div>
+
+                    <div class="row">
+                        <!--First column-->
+                        <div class="col-md-6">
+                            <div class="md-form">
+                                <i class="fa fa-envelope prefix"></i>
+                                <input type="text" id="form81" class="form-control validate">
+                                <label for="form81" data-error="wrong" data-success="right">Experience Required</label>
+                            </div>
+                        </div>
+
+                        <!--Second column-->
+                        <div class="col-md-6">
+                            <div class="md-form">
+                                <i class="fa fa-lock prefix"></i>
+                                <input type="text" id="form82" class="form-control validate">
+                                <label for="form82" data-error="wrong" data-success="right">Location</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="md-form">
+                        <i class="fa fa-user prefix"></i>
+                        <input type="text" id="form3" class="form-control">
+                        <label for="form3">Skills</label>
+                    </div>
+
+                    <div class="md-form">
+                        <i class="fa fa-pencil prefix"></i>
+                        <textarea type="text" id="form8" class="md-textarea"></textarea>
+                        <label for="form8">Job Description</label>
+                    </div>
+
+
+                    <div class="md-form">
+                        <i class="fa fa-user prefix"></i>
+                        <input time="false" date="true" mdc-datetime-picker type="text" id="date" placeholder="Date" ng-model="date" min-date="minDate" max-date="maxDate">
+                        <!--<label for="form3">Job offer valid till</label>-->
+                    </div>
+
+
+                    <div class="md-form">
+                        <div class="text-xs-center">
+                            <a href="#" class="panel">
+                                <button class="btn btn-default nextButton">Back</button>
+                            </a>
+                            <a href="#" class="panel" id="registerNext">
+                                <button class="btn btn-default nextButton">Next</button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <!--Naked Form-->
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>-->
+
+    <!-- Angular Material Library -->
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>-->
+
+    <!--DatePicker-->
+    <!-- <script type="text/javascript">
+        angular.module('datepickerBasicUsage', ['ngMaterial', 'ngMessages']).controller('AppCtrl', function ($scope) {
+            //$scope.myDate = new Date();
+        });
+    </script>-->
+
+    <!--DatePicker-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-animate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-aria.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.0.0-rc3/angular-material.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
+    <!--<script type="text/javascript" src="./beautifier.js"></script>-->
+    <script type="text/javascript" src="./js/angular-material-datetimepicker.js"></script>
+    <script type="text/javascript" src="./js/demo.js"></script>
+
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>-->
+
+    <!--For horizontal sliding-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $("#datepicker").datepicker();
+
+        });
+
+        $('#registerNext').click(function () {
+            $(".registerSection").animate({
+                "left": "-=99.9%"
+            }, "slow");
+            $(".skillSection").animate({
+                "left": "-=99.9%"
+            }, "slow");
+
+        });
+    </script>
+
+
+</body>
+
+</html>
