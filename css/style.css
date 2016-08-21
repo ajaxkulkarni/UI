@@ -57,8 +57,9 @@ body {
 .skillSets {
     font-size: 16px;
     #padding-bottom: 15px;
-    background-color: #F5F5F5;
-    color: black;
+    background-color: #E0E0E0;
+    color: #616161;
+    box-shadow: none;
 }
 
 .myButton {

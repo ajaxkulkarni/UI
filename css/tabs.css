@@ -13,6 +13,7 @@
     color: white;
     border: 1px solid white;
     border-radius: 0px;
+    border-bottom: 5px solid #EFEFEF;
 }
 
 .nav-tabs > li.active > a,
@@ -22,5 +23,5 @@
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     border-radius: 0px;
-    border-bottom: 5px solid #fff;
+    border-bottom: 5px solid #EFEFEF;
 }
